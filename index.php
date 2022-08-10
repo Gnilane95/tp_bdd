@@ -26,8 +26,8 @@ $members = $query->fetchAll();
                 <?= $_SESSION ["success"]; ?>
             </div>
         <?php }
-        #$_SESSION["error"] = [];
-        #$_SESSION["success"] = [];
+        $_SESSION["error"] = [];
+        $_SESSION["success"] = [];
         ?>
     </div>
     <div class="overflow-x-auto mx-10">
